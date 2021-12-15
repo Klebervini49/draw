@@ -18,9 +18,6 @@ userSelec.addEventListener('change', mudarSelect);
 function mudarSelect() {
     userSelec.setAttribute('data-color', userSelec.value)
 }
-setInterval(1000, mudarSelect())
-
-
 function colorClickEvent(e) {
     let color = e.target.getAttribute('data-color');
     currentColor = color;
