@@ -38,12 +38,10 @@ function mouseMoveEvent(e) {
 function mouseUpEvent() {
     canDraw = false;
 }
-
 function value() {
     var valor = document.querySelector('#value').value
     ctx.lineWidth = valor;
 }
-
 function draw(x, y) {
     let pointX = x - screen.offsetLeft;
     let pointY = y - screen.offsetTop;
@@ -58,8 +56,6 @@ function draw(x, y) {
     mouseX = pointX;
     mouseY = pointY;
 }
-setInterval(1000, value())
-
 function limparTela() {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
