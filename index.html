@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="parte1">
+        <canvas id="tela" width="900" height="500"></canvas>
+
+        <div class="colorArea parte12">
+            <div data-color="black" style="background-color: black" class="color active"></div>
+            <div data-color="blue" style="background-color: blue" class="color"></div>
+            <div data-color="red" style="background-color: red" class="color"></div>
+            <div data-color="green" style="background-color: green" class="color"></div>
+            <div data-color="yellow" style="background-color: yellow" class="color"></div>
+            <div data-color="gray" style="background-color: gray" class="color"></div>
+            <div data-color="white" style="background-color: white;" class="color"></div>
+            <div data-color="#F7F7F7" style="background-color: #F7F7F7;" class='color'>Borracha</div>
+        </div>
+    </div>
+
+    <div class="parte2">
+        <div class="colorArea">
+            <label>
+                <span style="margin-right: 5px;">Outra cor:</span>
+                <input type="color" id="colorUser" value="#00FBFF" data-color="#00FBFF" class='color userSelect'>
+            </label>
+            <span style="width: 300px; margin-top: 10px;">Obs.: Apos escolher uma cor, selecione novamente o campo para confirmar a escolha.</span>
+        </div>
+        <label>
+            Grossura da linha:
+            <input type="number" min="1" max="200" id="value" value="5" required>
+        </label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
