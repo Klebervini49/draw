@@ -12,7 +12,7 @@
 </p>              
 
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/Klebervini49/klebervini49.github.io/main/assets/img/img-project/javascript/draw.png" height='350px'  alt='Imagem do projeto'>
+    <img src="https://raw.githubusercontent.com/Klebervini49/klebervini49.github.io/main/assets/img/img-project/javascript/desenho.png" height='350px'  alt='Imagem do projeto'>
 </h1>
 
 ## 🚀 Tecnologias
